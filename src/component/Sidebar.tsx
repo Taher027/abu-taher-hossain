@@ -3,7 +3,7 @@
 import { ArrowUpRight, Download, FolderOpen, Mail } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import profileImage from "../assets/profile.jpg";
+import profileImage from "../assets/profile.png";
 import SocialLinks from "./SocialLinks";
 
 export default function Sidebar() {

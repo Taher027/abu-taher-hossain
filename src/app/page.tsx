@@ -9,7 +9,7 @@ import Skills from "@/component/Skills";
 
 export default function Home() {
   return (
-    <div className="relative isolate min-h-screen bg-midnight">
+    <div className="relative isolate overflow-x-clip min-h-screen bg-midnight">
       {/* Background glow */}
       <div className="pointer-events-none fixed -top-40 -right-40 -z-10 h-120 w-120 rounded-full bg-electric/15 blur-3xl" />
 

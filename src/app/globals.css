@@ -10,3 +10,20 @@
   --color-secondary-text: #94a3b8;
   --color-body-text: #cbd5e1;
 }
+html,
+body {
+  overflow-x: clip;
+  max-width: 100%;
+}
+
+/* Lenis recommended styles */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}

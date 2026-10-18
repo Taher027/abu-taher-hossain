@@ -58,7 +58,7 @@ export default function Header() {
   const current = isProjectPage ? "#projects" : active;
 
   return (
-    <header className="fixed top-4 inset-x-0 z-50 px-3 pointer-events-none">
+    <header className="pointer-events-none fixed inset-x-0 bottom-4 z-50 px-3 pb-[env(safe-area-inset-bottom)] lg:bottom-auto lg:top-4">
       <nav className="pointer-events-auto mx-auto flex w-fit items-center gap-1 rounded-full border border-white/10 bg-surface/70 p-1.5 shadow-lg shadow-electric/10 backdrop-blur-xl lg:gap-2 lg:p-2">
         {navItems.map(({ icon, title, link }) => {
           const isActive = current === link;
